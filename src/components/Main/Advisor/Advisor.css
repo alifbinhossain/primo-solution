@@ -1,0 +1,69 @@
+.card {
+  color: #1b262c;
+  background-image: linear-gradient(to bottom, #e7f4fd, #bbe1fa);
+  border: none;
+  border-radius: 5px;
+  /* background-color: #bbe1fa; */
+}
+.my-card {
+  height: 430px;
+}
+.card-body {
+}
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 3px solid #1b262c;
+  border-radius: 50%;
+}
+.card-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-text small {
+  display: block;
+  /* background-color: #BBE1FA; */
+  background-color: hsl(204, 86%, 82%);
+  padding: 5px 0 5px 8px;
+  border-radius: 3px;
+  border-bottom: 1px solid #1b262c;
+}
+.card-text small:not(:last-child) {
+  margin-bottom: -19px;
+}
+.card-text span {
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+.btn-hire {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 26px;
+  background-color: #0f4c75;
+  color: #fff;
+  transition: all 0.3s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.btn-hire:hover {
+  background-color: #1b87d0;
+  color: #fff;
+}
+.icon-box {
+}
+.icon-box a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #0f4c75;
+  transition: all 0.3s;
+}
+.icon-box a:hover {
+  transform: scale(1.5) skew(-6deg);
+  color: #1b87d0;
+}

@@ -1,0 +1,41 @@
+main {
+  color: #fff;
+  background-image: linear-gradient(
+      to right,
+      rgba(15, 76, 117, 0.9),
+      rgba(50, 130, 184, 0.85)
+    ),
+    url(../../images/consulting-2.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.title {
+  font-size: 60px;
+}
+.advisor-title {
+  font-size: 32px;
+}
+.about-title,
+.advisor-title {
+  width: max-content;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+.about-title {
+}
+.description {
+  font-size: 24px;
+  font-weight: 300;
+  color: #eeeeee;
+}
+.content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.advisors-container {
+}
+.checkout-container {
+  /* background-color: burlywood; */
+}
