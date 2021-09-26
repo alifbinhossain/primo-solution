@@ -1,0 +1,33 @@
+.checkout {
+  background-image: linear-gradient(to bottom, #1b262c, #0f4c75);
+  /* background-color: #0f4c75; */
+  border-radius: 4px;
+  color: #bbe1fa;
+}
+.checkout h5 {
+  font-size: 16px;
+  text-align: center;
+}
+.added-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.btn-clear {
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 8px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #bbe1fa;
+}
+.btn-users {
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #bbe1fa;
+}
