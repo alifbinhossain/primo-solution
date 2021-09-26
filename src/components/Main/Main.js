@@ -36,7 +36,7 @@ const Main = () => {
           identifying areas for growth within a company.
         </p>
         <h2 className="advisor-title text-center mb-3">
-          Our Consultants (<span>Total Budget : $100</span>)
+          Our Consultants (<span>Total Budget : $500</span>)
         </h2>
         {/* ---------------------------------- CONTENT --------------------------------- */}
         <section className="content pt-4">

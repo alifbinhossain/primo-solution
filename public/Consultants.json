@@ -1,7 +1,6 @@
 [
   {
     "id": 1,
-    "uuid": "970e02b5-b2e0-443f-923f-cff5b963b9ae",
     "firstName": "Robert",
     "lastName": "Michael",
     "city": "Chicago",
@@ -10,11 +9,11 @@
     "emailAddress": "robert.michael@gg-mal.com",
     "jobTitle": "Customer Service Representative",
     "company": "Apple Inc.",
+    "charge": 25,
     "photo": "https://images.unsplash.com/photo-1463453091185-61582044d556?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
   },
   {
     "id": 2,
-    "uuid": "cbd1e5fc-737b-4a83-b548-bd741b77e308",
     "firstName": "Robert",
     "lastName": "John",
     "city": "San Francisco",
@@ -23,11 +22,11 @@
     "emailAddress": "robert.john@gg-mal.com",
     "jobTitle": "Sales Manager",
     "company": "McKesson",
+    "charge": 54,
     "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
   },
   {
     "id": 3,
-    "uuid": "0e42c6f9-5cb6-4cb7-9b3d-e600c6c5af04",
     "firstName": "Elizabeth",
     "lastName": "Jennifer",
     "city": "Houston",
@@ -36,11 +35,11 @@
     "emailAddress": "elizabeth.jennifer@gg-mal.com",
     "jobTitle": "Software Engineer",
     "company": "Berkshire",
+    "charge": 72,
     "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
   },
   {
     "id": 4,
-    "uuid": "0077b27b-ba7d-4c33-98f9-53823fd802bf",
     "firstName": "Robert",
     "lastName": "William",
     "city": "Dallas",
@@ -49,11 +48,11 @@
     "emailAddress": "robert.william@gg-mal.com",
     "jobTitle": "Data Entry Clerk",
     "company": "Apple Inc.",
+    "charge": 20,
     "photo": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80"
   },
   {
     "id": 5,
-    "uuid": "b0322dc4-8b40-457e-995f-ddd5667b5c21",
     "firstName": "Jennifer",
     "lastName": "Mary",
     "city": "Chicago",
@@ -62,11 +61,11 @@
     "emailAddress": "jennifer.mary@gg-mal.com",
     "jobTitle": "Customer Service Representative",
     "company": "Berkshire",
+    "charge": 18,
     "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
   },
   {
     "id": 6,
-    "uuid": "860ef163-86da-44d5-90f2-ca226587a8ff",
     "firstName": "Robert",
     "lastName": "Robert",
     "city": "New York City",
@@ -75,11 +74,11 @@
     "emailAddress": "robert.robert@gg-mal.com",
     "jobTitle": "Software Engineer",
     "company": "CVS Health",
+    "charge": 80,
     "photo": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
   },
   {
     "id": 7,
-    "uuid": "9ead5029-f139-49f2-94c8-99c964e25823",
     "firstName": "Patricia",
     "lastName": "William",
     "city": "Houston",
@@ -88,11 +87,11 @@
     "emailAddress": "patricia.william@gg-mal.com",
     "jobTitle": "Administrative Assistant",
     "company": "Alphabet Inc.",
+    "charge": 52,
     "photo": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
   },
   {
     "id": 8,
-    "uuid": "ac070e51-1b42-4336-bd60-fd43cffc4f05",
     "firstName": "William",
     "lastName": "John",
     "city": "Fort Worth",
@@ -101,11 +100,11 @@
     "emailAddress": "william.john@gg-mal.com",
     "jobTitle": "Software Engineer",
     "company": "Berkshire",
+    "charge": 67,
     "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
   },
   {
     "id": 9,
-    "uuid": "838a2d95-593b-4e1c-a317-12025e43f277",
     "firstName": "Elizabeth",
     "lastName": "James",
     "city": "San Francisco",
@@ -114,11 +113,11 @@
     "emailAddress": "elizabeth.james@gg-mal.com",
     "jobTitle": "Office Assistant",
     "company": "McKesson",
+    "charge": 15,
     "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80"
   },
   {
     "id": 10,
-    "uuid": "c48e553a-6698-47f3-a7ad-61ea902ab844",
     "firstName": "Linda",
     "lastName": "Patricia",
     "city": "Houston",
@@ -127,11 +126,11 @@
     "emailAddress": "linda.patricia@gg-mal.com",
     "jobTitle": "Administrative Assistant",
     "company": "McKesson",
+    "charge": 48,
     "photo": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
   },
   {
     "id": 11,
-    "uuid": "43e4a5e9-ed07-4245-b90f-9ec189f4a62a",
     "firstName": "Michael",
     "lastName": "William",
     "city": "Fort Worth",
@@ -140,11 +139,11 @@
     "emailAddress": "michael.william@gg-mal.com",
     "jobTitle": "Customer Service Representative",
     "company": "ExxonMobil",
+    "charge": 30,
     "photo": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=848&q=80"
   },
   {
     "id": 12,
-    "uuid": "42d81428-1cd0-4c83-916a-54bbc1fcedc1",
     "firstName": "Elizabeth",
     "lastName": "Patricia",
     "city": "Los Angeles",
@@ -153,11 +152,11 @@
     "emailAddress": "elizabeth.patricia@gg-mal.com",
     "jobTitle": "Administrative Assistant",
     "company": "Amazon",
+    "charge": 70,
     "photo": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80"
   },
   {
     "id": 13,
-    "uuid": "b3e43218-a230-4e86-8d5c-b515673185e5",
     "firstName": "Linda",
     "lastName": "Mary",
     "city": "Fort Worth",
@@ -166,11 +165,11 @@
     "emailAddress": "linda.mary@gg-mal.com",
     "jobTitle": "Software Engineer",
     "company": "Walmart",
+    "charge": 95,
     "photo": "https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
   },
   {
     "id": 14,
-    "uuid": "6309f9a7-76cd-4141-8cca-128ea3a717a1",
     "firstName": "John",
     "lastName": "Elizabeth",
     "city": "San Antonio",
@@ -179,11 +178,11 @@
     "emailAddress": "john.elizabeth@gg-mal.com",
     "jobTitle": "Software Engineer",
     "company": "ExxonMobil",
+    "charge": 63,
     "photo": "https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
   },
   {
     "id": 15,
-    "uuid": "f9366858-47f3-41ea-b24f-3395e5f36d78",
     "firstName": "Jennifer",
     "lastName": "Patricia",
     "city": "San Antonio",
@@ -192,6 +191,7 @@
     "emailAddress": "jennifer.patricia@gg-mal.com",
     "jobTitle": "Executive Assistant",
     "company": "Alphabet Inc.",
+    "charge": 32,
     "photo": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
   }
 ]

@@ -14,12 +14,8 @@ const Advisor = (props) => {
     jobTitle,
     company,
     photo,
+    charge,
   } = advisor;
-
-  const charge = advisor.charge
-    ? advisor.charge
-    : Math.round(Math.random() * 100);
-  advisor.charge = charge; ////get a random charge amount by math.random()
 
   return (
     <div class="col">
