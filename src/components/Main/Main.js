@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Advisor from "./Advisor/Advisor"; //importing Advisor component
-import Checkout from "./Checkout/Checkout";
-import Footer from "./Footer/Footer";
+import Checkout from "./Checkout/Checkout"; //importing Checkout component
+import Footer from "./Footer/Footer"; //importing Footer component
 import "./Main.css"; //importing css style
 
 const Main = () => {
@@ -38,10 +38,11 @@ const Main = () => {
         <h2 className="advisor-title text-center mb-3">
           Our Consultants (<span>Total Budget : $100</span>)
         </h2>
+        {/* ---------------------------------- CONTENT --------------------------------- */}
         <section className="content pt-4">
-          {/* ADVISOR CONTAINER */}
+          {/*-------- ADVISOR CONTAINER ---------*/}
           <div className="advisors-container">
-            {/* GRID CARD */}
+            {/*-- GRID CARD --*/}
             <div class="row row-cols-1 row-cols-md-3 g-4">
               {advisors.map((advisor) => (
                 <Advisor
@@ -51,9 +52,9 @@ const Main = () => {
                 ></Advisor>
               ))}
             </div>
-            {/* GRID CARD */}
+            {/*-- GRID CARD --*/}
           </div>
-          {/* CHECKOUT CONTAINER */}
+          {/*-------- CHECKOUT CONTAINER --------*/}
           <div className="checkout-container">
             <Checkout checkout={checkout} setCheckout={setCheckout}></Checkout>
           </div>

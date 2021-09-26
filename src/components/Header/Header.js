@@ -1,9 +1,10 @@
 import React from "react";
-import "./Header.css";
+import "./Header.css"; //importing css style
 
 const Header = () => {
   return (
-    <div>
+    <header>
+      {/* ---------------------------------- NAVBAR --------------------------------- */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid px-5">
           <a className="navbar-brand" href="/">
@@ -49,7 +50,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

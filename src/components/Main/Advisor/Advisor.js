@@ -19,13 +19,14 @@ const Advisor = (props) => {
   const charge = advisor.charge
     ? advisor.charge
     : Math.round(Math.random() * 100);
-  advisor.charge = charge;
-  // console.log(advisor);
+  advisor.charge = charge; ////get a random charge amount by math.random()
+
   return (
     <div class="col">
       <div class="card p-3 pb-0">
         <div className="my-card d-flex flex-column justify-content-between">
           <img src={photo} class="card-img-top" alt="..." />
+          {/* -------------------------- ADVISOR DETAILS ------------------------- */}
           <div class="card-body px-0 d-flex flex-column justify-content-between">
             <h5 class="card-title text-center mb-3">
               {firstName} {lastName}
