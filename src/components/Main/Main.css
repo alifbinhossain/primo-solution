@@ -8,6 +8,7 @@ main {
     url(../../images/consulting-2.jpeg);
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   min-height: 100vh;
 }
 .title {
@@ -39,8 +40,4 @@ main {
 .content {
   display: grid;
   grid-template-columns: 3fr 1fr;
-}
-.advisors-container {
-}
-.checkout-container {
 }

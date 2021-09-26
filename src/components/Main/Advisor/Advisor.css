@@ -1,14 +1,12 @@
 .card {
-  color: #1b262c;
-  background-image: linear-gradient(to bottom, #e7f4fd, #bbe1fa);
+  color: #e5e5e5;
+  background-image: linear-gradient(to bottom, #1b262c, #0f4c75);
   border: none;
   border-radius: 5px;
-  /* background-color: #bbe1fa; */
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
 }
 .my-card {
-  height: 430px;
-}
-.card-body {
+  height: 460px;
 }
 .card img {
   display: block;
@@ -16,7 +14,6 @@
   width: 80px;
   height: 80px;
   object-fit: cover;
-  /* border: 3px solid #0f4c75; */
   border-radius: 50%;
 }
 .card-text {
@@ -25,17 +22,18 @@
 }
 .card-text small {
   display: block;
-  /* background-color: #BBE1FA; */
-  background-color: hsl(204, 86%, 82%);
-  padding: 5px 0 5px 8px;
+  background-color: rgba(27, 38, 44, 0.5);
+  padding: 6px 0 6px 8px;
   border-radius: 3px;
-  border-bottom: 1px solid #1b262c;
+  border-bottom: 1px solid #bbe1fa;
+  font-weight: 400;
+  font-size: 14px;
 }
 .card-text small:not(:last-child) {
-  margin-bottom: -19px;
+  margin-bottom: -16px;
 }
 .card-text span {
-  font-weight: 900;
+  font-weight: 700;
   margin: 0;
   padding: 0;
 }
@@ -45,8 +43,8 @@
   border: none;
   border-radius: 3px;
   padding: 8px 26px;
-  background-color: #0f4c75;
-  color: #fff;
+  background-color: #bbe1fa;
+  font-weight: 500;
   transition: all 0.3s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
@@ -54,13 +52,15 @@
   background-color: #1b87d0;
   color: #fff;
 }
-.icon-box {
+.btn-hire:active {
+  transform: scale(0.98);
+  box-shadow: 10px -10px 40px rgba(255, 255, 255, 0.2);
 }
 .icon-box a {
   display: block;
   text-decoration: none;
   font-size: 18px;
-  color: #0f4c75;
+  color: #bbe1fa;
   transition: all 0.3s;
 }
 .icon-box a:hover {

@@ -1,6 +1,7 @@
 .checkout {
   background-image: linear-gradient(to bottom, #1b262c, #0f4c75);
   border-radius: 4px;
+  color: #e5e5e5;
 }
 .checkout h5 {
   font-size: 16px;
@@ -20,6 +21,11 @@
   font-size: 14px;
   font-weight: 500;
   background-color: #bbe1fa;
+  transition: all 0.3s;
+}
+.btn-clear:hover {
+  background-color: #1b87d0;
+  color: #fff;
 }
 .btn-users {
   border: none;
