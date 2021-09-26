@@ -18,3 +18,16 @@
 .list-item small {
   font-size: 12px;
 }
+.text-bold {
+  font-weight: 500;
+}
+.job-title {
+  font-weight: 300;
+}
+.item-user {
+  flex: 0 0 70%;
+}
+.check-circle {
+  font-size: 16px;
+  color: #bbe1fa;
+}
