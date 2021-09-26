@@ -29,7 +29,7 @@ const Main = () => {
       <section className="mb-5">
         <h3 className="about-title">About Us</h3>
         <p className="description mb-5">
-          <span>Primo Solutions </span> is a Consultant, or Business Adviser,
+          <span>P</span>rimo Solutions is a Consultant, or Business Adviser,
           expert advisor who can provides advice, analysis and solutions. We
           enable new and existing businesses to develop and expand. Our duties
           include developing business plans, advising on financial matters and
