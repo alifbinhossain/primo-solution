@@ -4,8 +4,8 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container-fluid px-5">
           <a className="navbar-brand" href="/">
             Primo Solutions
           </a>

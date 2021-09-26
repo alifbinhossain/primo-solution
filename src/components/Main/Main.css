@@ -15,10 +15,10 @@ main {
   font-size: 60px;
 }
 .advisor-title {
-  font-size: 32px;
 }
 .about-title,
 .advisor-title {
+  font-size: 32px;
   margin: 0 auto;
   width: max-content;
   padding-bottom: 10px;

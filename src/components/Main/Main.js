@@ -25,10 +25,9 @@ const Main = () => {
   };
 
   return (
-    <main className="pt-4 pb-1">
-      <section className="container mb-4">
-        {/* <h1 className=" my-2 title">Primo Solution</h1> */}
-        <h3 className="about-title mb-3">About Us</h3>
+    <main className="px-5  pt-4 pb-1">
+      <section className="mb-5">
+        <h3 className="about-title">About Us</h3>
         <p className="description mb-5">
           <span>Primo Solutions </span> is a Consultant, or Business Adviser,
           expert advisor who can provides advice, analysis and solutions. We
