@@ -21,7 +21,9 @@ const Checkout = (props) => {
           </span>
         </button>
       </h5>
-      <h5 className="mb-3">Total Cost : $ {totalCost}</h5>
+      <h5 className="mb-3">
+        Total Cost : <span className="text-warning">${totalCost}</span>
+      </h5>
       <ul className="added-list">
         {checkout.map((advisor) => (
           <CheckoutItem key={advisor.id} advisor={advisor}></CheckoutItem>
