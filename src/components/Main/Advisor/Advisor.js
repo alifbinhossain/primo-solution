@@ -9,12 +9,11 @@ const Advisor = (props) => {
     lastName,
     phoneNumber,
     emailAddress,
+    city,
+    country,
     jobTitle,
     company,
     photo,
-    facebook,
-    twitter,
-    linkedin,
   } = advisor;
 
   const charge = advisor.charge
@@ -49,6 +48,13 @@ const Advisor = (props) => {
                 <br />
                 <small>
                   <span>
+                    <i class="fas fa-location-arrow"></i>
+                  </span>{" "}
+                  : {city} , {country}
+                </small>{" "}
+                <br />
+                <small>
+                  <span>
                     <i class="fas fa-user-tie"></i>
                   </span>{" "}
                   : {jobTitle},<span>{company}</span>
@@ -61,13 +67,13 @@ const Advisor = (props) => {
                 </small>
               </p>
               <div className="icon-box d-flex justify-content-center align-items-center mb-4">
-                <a className="me-3" href={facebook}>
+                <a className="me-3" href="/">
                   <i class="fab fa-facebook icon"></i>
                 </a>
-                <a className="me-3" href={twitter}>
+                <a className="me-3" href="/">
                   <i class="fab fa-twitter icon"></i>
                 </a>
-                <a href={linkedin}>
+                <a href="/">
                   <i class="fab fa-linkedin-in icon"></i>
                 </a>
               </div>

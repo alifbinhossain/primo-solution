@@ -8,7 +8,7 @@ const Main = () => {
   const [advisors, setAdvisors] = useState([]);
   const [checkout, setCheckout] = useState([]);
   useEffect(() => {
-    fetch("./People-2.json")
+    fetch("./Consultants.json")
       .then((res) => res.json())
       .then((data) => setAdvisors(data));
   }, []);
