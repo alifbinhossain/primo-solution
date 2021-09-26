@@ -15,7 +15,7 @@ const Checkout = (props) => {
         Total Added :
         <button class=" position-relative btn-users ms-3">
           <i class="fas fa-users"></i>
-          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
             {checkout.length}
             <span class="visually-hidden">unread messages</span>
           </span>
