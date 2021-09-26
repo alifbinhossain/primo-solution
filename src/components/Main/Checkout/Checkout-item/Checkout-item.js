@@ -10,7 +10,7 @@ const CheckoutItem = (props) => {
       <small>
         {firstName} {lastName}
       </small>
-      <small>$ {charge}</small>
+      <small className="text-warning">${charge}</small>
     </li>
   );
 };
