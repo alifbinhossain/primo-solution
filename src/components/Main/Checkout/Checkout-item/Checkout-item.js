@@ -4,7 +4,6 @@ import "./Checkout-item.css";
 const CheckoutItem = (props) => {
   const { advisor } = props;
   const { firstName, lastName, charge, photo } = advisor;
-  console.log(advisor);
   return (
     <li className="list-item d-flex justify-content-between align-items-center">
       <img src={photo} alt="" />

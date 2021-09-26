@@ -24,7 +24,7 @@ const Checkout = (props) => {
       <h5 className="mb-3">Total Cost : $ {totalCost}</h5>
       <ul className="added-list">
         {checkout.map((advisor) => (
-          <CheckoutItem key={advisor.key} advisor={advisor}></CheckoutItem>
+          <CheckoutItem key={advisor.id} advisor={advisor}></CheckoutItem>
         ))}
       </ul>
       <button onClick={() => setCheckout([])} className="btn-clear">

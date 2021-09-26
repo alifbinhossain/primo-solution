@@ -56,7 +56,7 @@ const Advisor = (props) => {
                 <br />
                 <small>
                   <span>Session charge</span> :{" "}
-                  <span className="text-success font-bolder">${charge}</span>/{" "}
+                  <span className="text-warning">${charge}</span>/{" "}
                   <span>hour</span>
                 </small>
               </p>
