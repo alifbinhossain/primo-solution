@@ -35,8 +35,8 @@ const Main = () => {
           include developing business plans, advising on financial matters and
           identifying areas for growth within a company.
         </p>
-        <h2 className="advisor-title text-center">
-          Our Consultants (<span>starting from $1</span>)
+        <h2 className="advisor-title text-center mb-3">
+          Our Consultants (<span>Total Budget : $100</span>)
         </h2>
         <section className="content pt-4">
           {/* ADVISOR CONTAINER */}
