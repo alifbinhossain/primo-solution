@@ -18,17 +18,23 @@ main {
 }
 .about-title,
 .advisor-title {
+  margin: 0 auto;
   width: max-content;
   padding-bottom: 10px;
   border-bottom: 1px solid #fff;
   color: #fff;
 }
-.about-title {
+.advisor-title span {
+  font-size: 22px;
 }
 .description {
   font-size: 24px;
   font-weight: 300;
   color: #eeeeee;
+}
+.description span {
+  font-size: 40px;
+  font-weight: 400;
 }
 .content {
   display: grid;
@@ -37,5 +43,4 @@ main {
 .advisors-container {
 }
 .checkout-container {
-  /* background-color: burlywood; */
 }

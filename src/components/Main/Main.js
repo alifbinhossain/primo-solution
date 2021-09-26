@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Advisor from "./Advisor/Advisor"; //importing Advisor component
 import Checkout from "./Checkout/Checkout";
+import Footer from "./Footer/Footer";
 import "./Main.css"; //importing css style
 
 const Main = () => {
@@ -19,24 +20,25 @@ const Main = () => {
     if (!isExist) {
       setCheckout(newCheckout);
     } else {
-      alert("Already Added");
+      alert("Already Added!!");
     }
   };
-  /* --------------------- CLEAR ALL BUTTON FUNCTIONALLITY -------------------- */
-  const handleToClear = () => {};
-  /* ----------------------------------- JSX ---------------------------------- */
+
   return (
-    <main className="py-4">
-      <section className="container">
-        <h1 className="text-center my-2 title">Primo Solution</h1>
+    <main className="pt-4 pb-1">
+      <section className="container mb-4">
+        {/* <h1 className=" my-2 title">Primo Solution</h1> */}
         <h3 className="about-title mb-3">About Us</h3>
         <p className="description mb-5">
-          A Consultant, or Business Adviser, provides expert advice, analysis
-          and solutions. We enable new and existing businesses to develop and
-          expand. Our duties include developing business plans, advising on
-          financial matters and identifying areas for growth within a company.
+          <span>Primo Solutions </span> is a Consultant, or Business Adviser,
+          expert advisor who can provides advice, analysis and solutions. We
+          enable new and existing businesses to develop and expand. Our duties
+          include developing business plans, advising on financial matters and
+          identifying areas for growth within a company.
         </p>
-        <h2 className="advisor-title text-center">Our Consultants</h2>
+        <h2 className="advisor-title text-center">
+          Our Consultants (<span>starting from $1</span>)
+        </h2>
         <section className="content pt-4">
           {/* ADVISOR CONTAINER */}
           <div className="advisors-container">
@@ -55,12 +57,10 @@ const Main = () => {
           {/* CHECKOUT CONTAINER */}
           <div className="checkout-container">
             <Checkout checkout={checkout} setCheckout={setCheckout}></Checkout>
-            {/* {checkout.map((product) => (
-              <Checkout product={product} key={product.id}></Checkout>
-            ))} */}
           </div>
         </section>
       </section>
+      <Footer></Footer>
     </main>
   );
 };

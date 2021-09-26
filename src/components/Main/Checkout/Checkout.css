@@ -1,8 +1,6 @@
 .checkout {
   background-image: linear-gradient(to bottom, #1b262c, #0f4c75);
-  /* background-color: #0f4c75; */
   border-radius: 4px;
-  color: #bbe1fa;
 }
 .checkout h5 {
   font-size: 16px;

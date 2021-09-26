@@ -16,7 +16,7 @@
   width: 80px;
   height: 80px;
   object-fit: cover;
-  border: 3px solid #1b262c;
+  /* border: 3px solid #0f4c75; */
   border-radius: 50%;
 }
 .card-text {

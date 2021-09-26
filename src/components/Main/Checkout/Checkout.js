@@ -1,16 +1,14 @@
 import React from "react";
-import CheckoutItem from "./Checkout-item/Checkout-item";
+import CheckoutItem from "./Checkout-item/Checkout-item"; //importing Checkout Item Component
 import "./Checkout.css"; //importing css style
 
 const Checkout = (props) => {
   const { checkout } = props;
   const { setCheckout } = props;
-  //   console.log(checkout);
   const totalCost = checkout.reduce(
     (prev, current) => prev + current.charge,
     0
   );
-  //   console.log(totalCost);
   return (
     <div className="checkout ms-3 p-4">
       <h5>
